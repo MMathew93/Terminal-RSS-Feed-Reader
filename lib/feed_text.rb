@@ -34,4 +34,8 @@ module DisplayText
 
     HEREDOC
   end
+
+  def linebreak
+    puts "#{"+"*40}"
+  end
 end
